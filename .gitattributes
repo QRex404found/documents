@@ -5,3 +5,17 @@
 # (선택 사항) SQL 파일은 저장소 내에서 LF(Linux/Mac/Git 표준)로 저장되도록 명시적으로 지정합니다.
 # .sql 파일을 추가했으므로 이 설정을 추가하는 것이 좋습니다.
 *.sql text eol=lf
+
+# 바이너리 파일은 텍스트 처리하지 않도록 설정
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.pptx binary
+*.ppt binary
+*.hwp binary
+*.hwpx binary
+*.mp4 binary
+*.zip binary
+*.ico binary

@@ -1,0 +1,123 @@
+# ============================
+# OS SYSTEM FILES
+# ============================
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.Trash-*
+
+# ============================
+# IDE / EDITOR SETTINGS
+# ============================
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# ============================
+# BUILD / TEMP FILES
+# ============================
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Java / Spring
+target/
+build/
+*.class
+*.jar
+*.war
+*.log
+
+# Node / Frontend (React 등)
+node_modules/
+dist/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ============================
+# DOCUMENTATION / BINARY FILES
+# ============================
+# 기본적으로 Git에 포함 OK
+# 단, 자동 임시 파일은 제외
+
+# MS Office temporary files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# HWP temporary
+~$*.hwp
+
+# PDF, PPTX, HWP 등은 제외하면 안 되므로 포함 O
+
+# ============================
+# IMAGE / DESIGN FILES
+# ============================
+# Figma exports & design resources 포함 OK
+# 다만 임시 파일은 제외
+*.tmp
+*.temp
+
+# ============================
+# ENVIRONMENT VARIABLES
+# ============================
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# ============================
+# LOGS
+# ============================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ============================
+# BACKUP / ARCHIVE
+# ============================
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ============================
+# ETC
+# ============================
+# Python virtual environments
+venv/
+.env/
+QRex-env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# gitignore itself
+!.gitignore
